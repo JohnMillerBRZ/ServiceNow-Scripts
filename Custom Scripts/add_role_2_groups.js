@@ -12,7 +12,7 @@ p1_role.query();
 
 //only runs if p1 role is present
 if (p1_role.next()) {
-  //lops over list of groups
+  //loops over list of groups
   for (var i=0; i<groupsArray.length; i++) {
     //gets the current group
     var group = new GlideRecord('sys_user_group');
