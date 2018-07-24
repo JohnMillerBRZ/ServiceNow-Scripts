@@ -26,7 +26,7 @@ if (p1_role.next()) {
       //applies the role to the current group
       role.initialize();
       role.group = group.sys_id;
-      role.role = '46dd7c51db1313005e9778eebf961931';
+      role.role = p1_role.sys_id;
       role.inherits = true;
       role.insert();
 
